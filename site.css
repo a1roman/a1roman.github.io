@@ -1,0 +1,45 @@
+body {
+	background: #FFFFFF;
+}
+
+html,body {
+		font-family:Verdana,sans-serif;
+		font-size:15px;
+		line-height:1.5
+}
+
+div.a,td {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+div.c {
+  text-align: justify;
+}
+
+table.a {
+  table-layout: fixed;
+  width: 100%;  
+}
+
+th {
+    text-align: left;
+}
+
+.image-container {
+  border-radius: 50px; /* Adjust the value to control the roundness */
+  overflow: hidden; /* This is important to hide the overflowing corners */
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
